@@ -25,16 +25,17 @@
   }
   .redes{
     display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
   }
   .redes button{
-    font-size: 14px;
-    color: #fffffff5;
+    width: auto;
+    padding: 2px;
+    font-size: 18px;
     cursor: pointer;
-    border: 1px solid #eeeeee67;
-    text-align: center;
-    padding: 5px 0;
-    background-color: #393ff09b;
-    width: 80%;
+    background-color: transparent;
+    border: 0;
+    color: #393ff09b;
   }
   @media (width<600px) {
     .presentacion-container {
