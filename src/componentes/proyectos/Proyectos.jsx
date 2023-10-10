@@ -29,7 +29,7 @@ function Proyectos() {
                                             <FontAwesomeIcon icon={faCode} /> {key}
                                         </a>
                                     ))}
-                                    <a href={val.cod}>
+                                    <a href={val.sitio}>
                                         <FontAwesomeIcon icon={faLink} />
                                         {' '}Demo
                                     </a>
