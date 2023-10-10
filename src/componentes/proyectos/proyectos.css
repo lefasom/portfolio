@@ -21,9 +21,6 @@
     height: 455px;
     border: 1px solid #efefef;
     transform: translate(0px, -10px);
-    box-shadow: 11px 12px 12px 0px rgba(196, 196, 196, 0.52);
-    -webkit-box-shadow: 11px 12px 12px 0px rgba(196, 196, 196, 0.52);
-    -moz-box-shadow: 11px 12px 12px 0px rgba(196, 196, 196, 0.52);
 }
 
 .card img {
@@ -54,14 +51,14 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 8, 255, 0.4);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 8, 255, .5)0%, rgba(0, 8, 255, .1) 75%);
 }
 
 .link {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 
 }
@@ -78,40 +75,27 @@
 }
 .detail h3,h4,h5{
     text-align: center;
-    color: #146c49;
+    color: #1
+46c49;
 } */
-.link a,
-button {
+
+.link a{
     font-size: 14px;
-    color: #fffffff5;
+    color: #fff;
     cursor: pointer;
-    border: 1px solid #eeeeee67;
+    border: 0;
     text-align: center;
     padding: 5px 0;
-
-
-    width: 80%;
-}
-
-.link a {
+    border: 1px solid #ffffff7e;
     text-decoration: none;
-
-}
-
-.link button {
-    background-color: transparent;
-    margin-top: 5px;
-
-}
-
-.link button:hover {
-    background-color: #eeeeee67;
-
+    margin: 10px;
+    width: 50%;
+    position: relative;
+  bottom: -145px;
 }
 
 .link a:hover {
-    background-color: #eeeeee67;
-
+    background-color:  rgba(53, 53, 54, 0.4)
 }
 
 .tecno {
@@ -138,7 +122,7 @@ button {
     }
 
     .img .link {
-        background-color: rgba(0, 8, 255, 0.327);
+        background-color: rgba(0, 0, 0, 0.155);
         opacity: 1;
     }
 }

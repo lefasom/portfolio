@@ -4,6 +4,7 @@ const proyectos = [
         name: "Chatea",
         src: "images/chatea.png",
         sitio: "https://front-chatea.vercel.app/",
+        cod:{"front":'https://github.com/lefasom/front-chatea',"back":'https://github.com/lefasom/back-chatea'},
         tecno: "Vue - Vuex - Node - Firebase - MongoDB",
     },
     {
@@ -11,6 +12,7 @@ const proyectos = [
         name: "La galeria",
         src: "images/blog-photo2.png",
         sitio: "https://blogs-of-photo-git-main-lefasom.vercel.app/",
+        cod:{"front":'https://github.com/lefasom/blogs-of-photo'},
         tecno: "React - Redux - Firebase",
     },
     {
@@ -18,6 +20,7 @@ const proyectos = [
         name: "Clon de IG",
         src: "images/Instagram-clone.png",
         sitio: "https://my-red-social.vercel.app/Perfil",
+        cod:{"front":'https://github.com/lefasom/clon-instagram'},
         tecno: "React",
 
     },
@@ -26,7 +29,8 @@ const proyectos = [
         name: "La Consulta",
         src: "images/verduleria.png",
         sitio: "https://verdulerialaconsultanext.vercel.app/",
-        tecno: "React",
+        cod:{"front":'https://github.com/lefasom/verduleria_la_consulta_next.js'},
+        tecno:"Next",
 
     },
 
