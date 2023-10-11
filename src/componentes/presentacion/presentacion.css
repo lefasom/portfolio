@@ -7,6 +7,7 @@
   width: 300px;
   height: 400px;
   object-fit: cover;
-  object-position: 33px 0px;
+  object-position: 27px 33px;
   opacity: .9;
+  border-radius: 100%;
 }

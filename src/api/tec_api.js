@@ -1,7 +1,7 @@
 const tec = [
     {
         id: 1,
-        src: "tec/c-sharp.png",
+        src: "tec/html-5.png",
     },
     {
         id: 2,
@@ -10,7 +10,7 @@ const tec = [
     },
     {
         id: 3,
-        src: "tec/express.png",
+        src: "tec/js.png",
 
     },
     {

@@ -6,13 +6,14 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <footer className='footer-container'>
+      <h6>Contacto</h6>
        <div className='redes'>
-       <FontAwesomeIcon icon={faGithub} />
-       <FontAwesomeIcon icon={faInstagram} />
-       <FontAwesomeIcon icon={faLinkedin} /> 
+       <FontAwesomeIcon className='icon' icon={faGithub} />
+       <FontAwesomeIcon className='icon' icon={faInstagram} />
+       <FontAwesomeIcon className='icon' icon={faLinkedin} /> 
     </div>
-    </div>
+    </footer>
   );
 }
 

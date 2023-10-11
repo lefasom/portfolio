@@ -14,9 +14,11 @@ import './proyectos.css'
 function Proyectos() {
     return (
         <div>
+          
 
             <div className="container">
-                {proyectos.map((val) => {
+            <h3>Proyectos</h3>
+               {proyectos.map((val) => {
                     return (
 
                         <div className="card" key={val.id}>
@@ -30,7 +32,7 @@ function Proyectos() {
                                         </a>
                                     ))}
                                     <a href={val.sitio}>
-                                        <FontAwesomeIcon icon={faLink} />
+                                        <FontAwesomeIcon className='' icon={faLink} />
                                         {' '}Demo
                                     </a>
                                 </div>

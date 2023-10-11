@@ -9,7 +9,7 @@ function App() {
 
   return (<>
     <Presentacion />
-    {/* <Tec /> */}
+    <Tec />
     <Proyectos />
     <Footer />
   </>
