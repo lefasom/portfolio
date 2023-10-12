@@ -1,17 +1,29 @@
 import React from 'react';
 import './tec.css';
-import tec from '../../api/tec_api'
 
 function Tec() {
   return (
   <div className="tec-container">
     <h3>Tecnologias</h3>
     <div className="tec">
-      {tec.map((val) => {
-        return (
-          <img key={val.id} src={val.src} alt="" />
-        )
-      })}
+     <p>HTML</p>
+     <p>CSS</p>
+     <p>JavaScript</p>
+     <p>React</p>
+     <p>Next</p>
+     <p>Vue</p>
+     <p>Node</p>
+     <p>MongoDB</p>
+     <p>WebSocket</p>
+     <p>Cloudinary</p>
+     <p>JWT</p>
+     <p>Cookies</p>
+     <p>Vuex</p>
+     <p>Redux</p>
+     <p>Tailwind</p>
+     <p>PostgreSQL</p>
+
+
     </div>
   </div>);
 }

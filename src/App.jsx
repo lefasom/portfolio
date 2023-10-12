@@ -4,13 +4,15 @@ import Presentacion from './componentes/presentacion/Presentacion'
 
 import './App.css'
 import Footer from './componentes/footer/Footer'
+import Menu from './componentes/menu/Menu'
 
 function App() {
 
   return (<>
+  <Menu />
     <Presentacion />
-    <Tec />
     <Proyectos />
+    <Tec />
     <Footer />
   </>
   )

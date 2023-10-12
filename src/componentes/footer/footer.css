@@ -1,7 +1,7 @@
 .footer-container{
-    background-color: #444;
+    background-color:rgb(51, 106, 155);
     width: 100%;
-    height: 110px;
+    height: 210px;
   
 }
 .redes{
@@ -21,6 +21,7 @@
     color: rgb(7, 139, 255);
 }
 .footer-container h6 {
+    letter-spacing: 2px;
     text-align: center;
     color: #fff;
     margin: 0;

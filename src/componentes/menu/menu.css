@@ -1,0 +1,25 @@
+.menu-container{
+    background-color: rgb(51, 106, 155);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    color: rgba(252, 252, 252, 0.98);
+
+    z-index: 999;
+}
+.menu-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+.menu-container ul li{
+    margin: 0 9px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.menu-container ul li:hover{
+    color: rgb(255, 255, 255);
+
+}

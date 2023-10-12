@@ -1,6 +1,7 @@
-.tec-contaner{
-    display: flex;
+.tec-container {
+    margin-bottom: 50px;
 }
+
 .tec-container h3 {
     text-align: center;
     color: #fff;
@@ -8,17 +9,22 @@
     letter-spacing: 2px;
     margin: 40px 0;
 }
-.tec{
+
+.tec {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     width: 90%;
     margin: auto;
-    grid-row-gap: 44px;
+    grid-row-gap: 4px;
 
 }
-.tec-container  img{
-    width: 50px;
 
-    object-fit: cover;
+.tec-container p {
+    font-size: 15px;
+    color: rgb(51, 106, 155);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(225, 226, 226, 0.835) 100%);
+    padding: 5px;
+    font-weight: 500;
 }
