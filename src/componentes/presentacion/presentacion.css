@@ -10,7 +10,7 @@
 position: absolute;
 right: 70px;
   width: 200px;
-  height: 270px;
+  height: 250px;
   object-fit: cover;
   object-position: 18px 27px;
   opacity: .9;
@@ -23,7 +23,7 @@ right: 70px;
     display: flex;
   justify-content: center;
   width: 100%;
-  height: 250px;
+  height: 230px;
 
   }
   .presentacion-container img {
@@ -31,9 +31,9 @@ right: 70px;
   position: relative;
   left: 0%;
     width: 200px;
-    height: 280px;
+    height: 250px;
     object-fit: cover;
-    object-position: 18px 34px;
+    object-position: 18px 22px;
     opacity: .9;
     border-radius: 100%;
     border: 4px solid rgb(224, 224, 224);
