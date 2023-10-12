@@ -9,7 +9,7 @@ import Menu from './componentes/menu/Menu'
 function App() {
 
   return (<>
-  <Menu />
+  {/* <Menu /> */}
     <Presentacion />
     <Proyectos />
     <Tec />

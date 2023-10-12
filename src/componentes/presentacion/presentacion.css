@@ -1,35 +1,102 @@
-.presentacion-container{
+.presentacion-container {
   display: flex;
- position: relative;
+  position: relative;
   padding: 100px 0;
   width: 100%;
   height: 250px;
 }
+
+.sobremi {
+  color: #fff;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobremi h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.sobremi h1 {
+  font-size: 44px;
+  padding-right: 84px;
+  color: rgb(234, 234, 234)
+}
+
+.sobremi h2 {
+  font-size: 20px;
+  margin-left: -126px;
+  background-color: rgb(51, 106, 155);
+  padding: 5px;
+  margin-bottom: 10px;
+  color: rgb(234, 234, 234)
+
+
+}
+
+.sobremi a {
+  color: rgb(234, 234, 234);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid  rgb(51, 106, 155);
+}
+
+.sobremi a:hover{
+  background-color: rgb(51, 106, 155);
+}
+
+.sobremi .a1 {
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+.sobremi .a2 {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.sobremi .a3 {
+  margin-right: -120px;
+  margin-top: 20px;
+}
+.sobremi .a4 {
+  margin-right: -270px;
+  margin-top: 20px;
+}
 .presentacion-container img {
   background-color: rgb(224, 224, 224);
-position: absolute;
-right: 70px;
+  position: absolute;
+  right: 200px;
+  top: 70px;
   width: 200px;
-  height: 270px;
+  height: 320px;
   object-fit: cover;
-  object-position: 18px 27px;
+  object-position: 1px 27px;
   opacity: .9;
-  border-radius: 100%;
   border: 4px solid rgb(255, 255, 255);
 
 }
+
 @media (width<600px) {
   .presentacion-container {
     display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 230px;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    padding-top: 150px;
   }
+
   .presentacion-container img {
     background-color: rgb(224, 224, 224);
-  position: relative;
-  left: 0%;
+    position: relative;
+    left: 0%;
     width: 200px;
     height: 250px;
     object-fit: cover;
@@ -37,6 +104,6 @@ right: 70px;
     opacity: .9;
     border-radius: 100%;
     border: 4px solid rgb(255, 255, 255);
-  
+
   }
 }
