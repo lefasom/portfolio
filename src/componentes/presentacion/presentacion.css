@@ -34,8 +34,6 @@ h2 {
   padding: 5px;
   margin-bottom: 10px;
   color: rgb(234, 234, 234)
-
-
 }
 
 .sobremi a {
@@ -43,10 +41,10 @@ h2 {
   text-decoration: none;
   font-size: 20px;
   padding: 5px;
-  border: 1px solid  rgb(51, 106, 155);
+  border: 1px solid rgb(51, 106, 155);
 }
 
-.sobremi a:hover{
+.sobremi a:hover {
   background-color: rgb(51, 106, 155);
 }
 
@@ -64,10 +62,12 @@ h2 {
   margin-right: -120px;
   margin-top: 20px;
 }
+
 .sobremi .a4 {
   margin-right: -320px;
   margin-top: 20px;
 }
+
 .presentacion-container img {
   background-color: rgb(255, 255, 255);
   position: absolute;
@@ -83,19 +83,18 @@ h2 {
 }
 
 @media (width<600px) {
-  .presentacion-container .sobremi{
+  .presentacion-container .sobremi {
     display: none;
 
   }
-.presentacion-container{
-  
- 
 
-}
   .presentacion-container img {
     background-color: rgb(255, 254, 254);
-   left: 19%;
-  
-
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0%;
+    top: 0%;
+    bottom: 0;
   }
 }
