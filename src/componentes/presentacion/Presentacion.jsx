@@ -4,7 +4,7 @@ import './presentacion.css';
 function Presentacion() {
   return (
     <div className='presentacion-container'>
-      <img src="/images/perfil-cv.png" alt="" />
+      <img src="/images/cv2.png" alt="" />
     </div>);
 }
 

@@ -19,31 +19,6 @@ const tec = [
 
     },
     {
-        id: 5,
-        src: "tec/git.png",
-
-    },
-    {
-        id: 6,
-        src: "tec/github.png",
-
-    },
-    {
-        id: 7,
-        src: "tec/github2.png",
-
-    },
-    {
-        id: 8,
-        src: "tec/instagram.png",
-
-    },
-    {
-        id: 10,
-        src: "tec/linkedin.png",
-
-    },
-    {
         id: 11,
         src: "tec/mongoDB.png",
 
@@ -61,11 +36,6 @@ const tec = [
     {
         id: 14,
         src: "tec/react.png",
-
-    },
-    {
-        id: 15,
-        src: "tec/react2.png",
 
     },
     {

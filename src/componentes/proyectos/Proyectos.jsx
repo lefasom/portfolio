@@ -13,11 +13,11 @@ import './proyectos.css'
 
 function Proyectos() {
     return (
-        <div>
+        <div className='proyecto-container'>
           
 
-            <div className="container">
             <h3>Proyectos</h3>
+            <div className="container">
                {proyectos.map((val) => {
                     return (
 
