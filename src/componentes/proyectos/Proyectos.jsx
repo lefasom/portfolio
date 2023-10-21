@@ -14,11 +14,11 @@ import './proyectos.css'
 function Proyectos() {
     return (
         <div className='proyecto-container'>
-          
+
 
             <h3>Proyectos</h3>
             <div className="container">
-               {proyectos.map((val) => {
+                {proyectos.map((val) => {
                     return (
 
                         <div className="card" key={val.id}>
@@ -26,15 +26,15 @@ function Proyectos() {
                                 <img src={val.src} alt={val.name} />
                                 <div className="link">
 
-                                    {Object.keys(val.cod).map((key) => (
-                                        <a href={val.cod[key]} key={key}>
-                                            <FontAwesomeIcon icon={faCode} /> {key}
+                                    {Object.keys(val.cod).map((key) =>
+                                    (
+                                        <a href={val.cod[key][0]} key={key}>
+                                            <FontAwesomeIcon
+                                                icon={val.cod[key][1] == 'faCode' ? faCode : faLink}
+                                            />
+                                            {key}
                                         </a>
                                     ))}
-                                    <a href={val.sitio}>
-                                        <FontAwesomeIcon className='' icon={faLink} />
-                                        {' '}Demo
-                                    </a>
                                 </div>
                             </div>
                             <h3 className="name" >{val.name}</h3>

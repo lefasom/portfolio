@@ -12,6 +12,8 @@ function Tec() {
      <p>React</p>
      <p>Next</p>
      <p>Vue</p>
+     <p>React Native</p>
+     <p>Expo</p>
      <p>Node</p>
      <p>MongoDB</p>
      <p>WebSocket</p>
