@@ -93,6 +93,7 @@ const proyectos = [
         src: "images/gestor.png",
         cod: {
             "code": ['https://github.com/lefasom/gestion-de-negocio','faCode'],
+            "mp4": ['https://drive.google.com/file/d/1HsqSBHckmDiIbkKfDiiUZXs3C_3YRUs4/view?usp=sharing','faLink'],
         },
         tecno: "Node - ejs - MySql(XAMPP)",
     }
