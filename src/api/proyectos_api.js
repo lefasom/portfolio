@@ -59,8 +59,8 @@ const proyectos = [
         name: "La Serafina",
         src: "images/serafina.png",
         cod: {
-            "front": ['https://github.com/lefasom/laserafina','faCode'],
-            'demo': ["https://laserafina.vercel.app",'faLink'],
+            "front": ['https://github.com/lefasom/la-serafina-2.0','faCode'],
+            'demo': ["https://la-serafina-2-0.vercel.app/",'faLink'],
         },
         tecno: "Next - Firebase",
     }
