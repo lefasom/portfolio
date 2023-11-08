@@ -67,7 +67,7 @@ const proyectos = [
     ,
     {
         id: 6,
-        name: "rec escolar",
+        name: "Rec escolar",
         src: "images/rec-escolar.png",
         cod: {
             "code": ['https://github.com/lefasom/recordatorio-escolar','faCode'],
@@ -77,14 +77,24 @@ const proyectos = [
     }
     ,
     {
-        id: 6,
-        name: "calculadora",
+        id: 7,
+        name: "Calculadora",
         src: "images/calculadora.png",
         cod: {
             "code": ['https://github.com/lefasom/calculadora','faCode'],
             'demo': ["https://calculadora-theta-gules.vercel.app//",'faLink'],
         },
         tecno: "JavaScript - HTML - CSS",
+    }
+    ,
+    {
+        id: 8,
+        name: "Gestor de negocio",
+        src: "images/gestor.png",
+        cod: {
+            "code": ['https://github.com/lefasom/gestion-de-negocio','faCode'],
+        },
+        tecno: "Node - ejs - MySql",
     }
 
 
