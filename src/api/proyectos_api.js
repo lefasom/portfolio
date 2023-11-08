@@ -64,6 +64,17 @@ const proyectos = [
         },
         tecno: "Next - Firebase",
     }
+    ,
+    {
+        id: 6,
+        name: "rec escolar",
+        src: "images/rec-escolar.png",
+        cod: {
+            "code": ['https://github.com/lefasom/recordatorio-escolar','faCode'],
+            'demo': ["https://notificacionesappescolar.000webhostapp.com/",'faLink'],
+        },
+        tecno: "PHP - MySql",
+    }
 
 
 ];
