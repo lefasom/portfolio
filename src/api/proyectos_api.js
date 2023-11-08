@@ -94,7 +94,7 @@ const proyectos = [
         cod: {
             "code": ['https://github.com/lefasom/gestion-de-negocio','faCode'],
         },
-        tecno: "Node - ejs - MySql",
+        tecno: "Node - ejs - MySql(XAMPP)",
     }
 
 
