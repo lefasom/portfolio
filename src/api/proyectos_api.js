@@ -75,6 +75,17 @@ const proyectos = [
         },
         tecno: "PHP - MySql",
     }
+    ,
+    {
+        id: 6,
+        name: "calculadora",
+        src: "images/calculadora.png",
+        cod: {
+            "code": ['https://github.com/lefasom/calculadora','faCode'],
+            'demo': ["https://calculadora-theta-gules.vercel.app//",'faLink'],
+        },
+        tecno: "JavaScript - HTML - CSS",
+    }
 
 
 ];
