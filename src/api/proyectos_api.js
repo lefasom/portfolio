@@ -95,7 +95,7 @@ const proyectos = [
             "code": ['https://github.com/lefasom/gestion-de-negocio', 'faCode'],
             "mp4": ['https://drive.google.com/file/d/1HsqSBHckmDiIbkKfDiiUZXs3C_3YRUs4/view?usp=sharing', 'faLink'],
         },
-        tecno: "Node - ejs - MySql(XAMPP)",
+        tecno: "Node - ejs - SQL(XAMPP)",
     }
     ,
     {
@@ -108,6 +108,18 @@ const proyectos = [
         },
         tecno: "Python - Flask - MongoDB - JavaScript",
     }
+    ,
+    {
+        id: 10,
+        name: "Crud.exe",
+        src: "images/ejecutable.png",
+        cod: {
+            "code": ['https://github.com/lefasom/crud---Python---Tkinder---MySql', 'faCode'],
+            "mp4": ['https://drive.google.com/file/d/12U0bGQxf-AGzGshqJEoUrvJF_93688hJ/view?usp=sharing', 'faLink'],
+        },
+        tecno: "Python - Tkinder - SQL(XAMPP) - XSLX - CSV",
+    }
+
 
 ];
 
