@@ -55,7 +55,7 @@ const proyectos = [
         tecno: "React Native - Firebase",
     },
     {
-        id: 5,
+        id: 6,
         name: "La Serafina",
         src: "images/serafina.png",
         cod: {
@@ -66,7 +66,7 @@ const proyectos = [
     }
     ,
     {
-        id: 6,
+        id: 7,
         name: "Rec escolar",
         src: "images/rec-escolar.png",
         cod: {
@@ -77,7 +77,7 @@ const proyectos = [
     }
     ,
     {
-        id: 7,
+        id: 9,
         name: "Calculadora",
         src: "images/calculadora.png",
         cod: {
@@ -88,7 +88,7 @@ const proyectos = [
     }
     ,
     {
-        id: 8,
+        id: 10,
         name: "Gestor de negocio",
         src: "images/gestor.png",
         cod: {
@@ -99,7 +99,7 @@ const proyectos = [
     }
     ,
     {
-        id: 9,
+        id: 11,
         name: "Lista de precios",
         src: "images/python-crud.png",
         cod: {
@@ -110,7 +110,7 @@ const proyectos = [
     }
     ,
     {
-        id: 10,
+        id: 12,
         name: "Crud.exe",
         src: "images/ejecutable.png",
         cod: {
@@ -119,7 +119,17 @@ const proyectos = [
         },
         tecno: "Python - Tkinder - SQL(XAMPP) - XSLX - CSV",
     }
-
+    ,
+    {
+        id: 13,
+        name: "Crud_2.exe",
+        src: "images/pyqt6.png",
+        cod: {
+            "code": ['https://github.com/lefasom/Lista-de-productos', 'faCode'],
+            "mp4": ['https://drive.google.com/file/d/1ufZhPdeH0vLlPXtZP9nkW80VCqYCuTy2/view?usp=sharing', 'faLink'],
+        },
+        tecno: "Python - PyQt6 - SQLite ",
+    }
 
 ];
 
