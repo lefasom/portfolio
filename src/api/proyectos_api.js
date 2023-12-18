@@ -100,7 +100,7 @@ const proyectos = [
     ,
     {
         id: 11,
-        name: "Lista de precios",
+        name: "Exportar precios - Excel",
         src: "images/python-crud.png",
         cod: {
             "code": ['https://github.com/lefasom/lista-de-precios', 'faCode'],
